@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Routes from './src/Pages/routes';
 import Planos from './src/Pages/Planos';
 import Treinos from './src/Pages/Treinos';
+import Agenda from './src/Pages/Agenda';
 
 const Stack = createStackNavigator();
 
@@ -15,8 +16,8 @@ export default function App() {
           options={{
             headerShown: false,
           }}
-
         />
+        <Stack.Screen name="Agenda" component={Agenda} />
         <Stack.Screen name="Treinos" component={Treinos} />
         <Stack.Screen name="Planos" component={Planos} />
       </Stack.Navigator>

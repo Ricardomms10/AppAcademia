@@ -19,7 +19,9 @@ export default function DisplayButtons() {
                 >
                     <Text style={styles.buttonText}>TREINOS</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={[styles.button, styles.buttonGray]}>
+                <TouchableOpacity style={[styles.button, styles.buttonGray]}
+                    onPress={() => navigation.navigate('Agenda')}
+                >
                     <Text style={styles.buttonText}>AGENDA</Text>
                 </TouchableOpacity>
             </View>
