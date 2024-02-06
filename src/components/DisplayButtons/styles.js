@@ -2,13 +2,16 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-        flex: 0.5,
+        bottom: 0,
+        left: 0,
+        right: 0,
         alignItems: 'center',
         backgroundColor: '#FFF',
-        marginBottom: 20,
+        height:'15%'
     },
     row: {
         flexDirection: 'row',
+        height:'100%'
     },
     button: {
         flex: 1,

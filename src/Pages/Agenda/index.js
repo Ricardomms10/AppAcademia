@@ -1,8 +1,18 @@
+import React, { useRef, useState } from "react";
+import BottomSheet from "@gorhom/bottom-sheet";
+
 import { Text, TouchableOpacity, View } from "react-native";
 import styles from "./styles";
 
 
 export default function Agenda() {
+    const bottomSheetRef = useRef(null);
+    const [diaSelecionado, setDiaSelecionado] = useState(null);
+
+    const expandBottomSheet = (Dia) => { 
+        setDiaSelecionado(Dia);
+        bottomSheetRef.current?.expand();
+    }
 
     return (
         <View style={styles.container}>
@@ -26,7 +36,6 @@ export default function Agenda() {
             </View>
 
             <View style={styles.boxBtns}>
-
                 <TouchableOpacity style={styles.btnWeek}>
                     <View style={styles.btnTop} />
                     <Text style={styles.txtBtn}>QUI</Text>

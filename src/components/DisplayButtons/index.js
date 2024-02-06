@@ -26,17 +26,6 @@ export default function DisplayButtons() {
                 </TouchableOpacity>
             </View>
 
-            <View style={styles.row}>
-                <TouchableOpacity style={[styles.button, styles.buttonBlack]}>
-                    <Text style={styles.buttonText}>MAIS PROXIMA </Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={[styles.button, styles.buttonGray]}>
-                    <Text style={styles.buttonText}>ATIVIDADES</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={[styles.button, styles.buttonBlack]}>
-                    <Text style={styles.buttonText}>CONTATOS</Text>
-                </TouchableOpacity>
-            </View>
         </View>
     );
 };

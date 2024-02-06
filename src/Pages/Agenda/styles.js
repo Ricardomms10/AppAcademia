@@ -17,17 +17,17 @@ const styles = StyleSheet.create({
     boxBtns: {
         flexDirection: 'row',
         justifyContent: 'space-around',
-        position:'relative',
     },
     btnWeek: {
         borderWidth: 2,
         borderColor: '#FFF',
         width: '30%',
         height:'60%',
-        alignItems: 'center',
+        borderRadius: 10,
         justifyContent: 'center',
     },
     btnTop: {
+        borderRadius: 7,
         position:'absolute',
         backgroundColor: 'red',
         top:0,
