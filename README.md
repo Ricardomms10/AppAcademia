@@ -1,8 +1,8 @@
 # Academia Prime - Aplicativo de Fitness
 
 <div style="display: flex;">
-    <img src="./assets/tela1.png" alt="Imagem 1" style="width: 50%;">
-    <img src="./assets/Tela2.png" alt="Imagem 2" style="width: 50%;">
+    <img src="./assets/tela1.png" alt="Imagem 1" style="width: 40%;">
+    <img src="./assets/Tela2.png" alt="Imagem 2" style="width: 40%;">
    
 </div>
 
