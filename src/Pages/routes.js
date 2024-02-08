@@ -24,7 +24,7 @@ export default function Routes() {
                     paddingBottom: 5,
                     paddingTop: -2,
                 },
-                headerShown: false, // Esconder o cabeçalho por padrão
+                headerShown: false, 
             }}
         >
 
